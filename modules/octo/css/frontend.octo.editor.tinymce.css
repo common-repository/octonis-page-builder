@@ -1,0 +1,23 @@
+.mce-panel {
+	background-color: #000;
+}
+
+.mce-btn.mce-active .octButton.octFontList span {
+	display: none;
+}
+
+.octButton.octFontList {
+	width: 100px !important;
+	max-width: 100px;
+	cursor: text;
+    position: relative;
+}
+
+.octButton.octFontList span {
+	max-width: 74px;
+    width: 74px;
+    display: inline-block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
